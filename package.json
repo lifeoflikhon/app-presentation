@@ -1,0 +1,26 @@
+{
+  "name": "app-presentation",
+  "version": "1.0.0",
+  "description": "## What to make",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifeoflikhon/app-presentation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lifeoflikhon/app-presentation/issues"
+  },
+  "homepage": "https://github.com/lifeoflikhon/app-presentation#readme",
+  "devDependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.14.3"
+  }
+}
