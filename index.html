@@ -15,6 +15,7 @@
     <title>App Presentation</title>
 
     <!-- fontawesome icon -->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <script
       src="https://kit.fontawesome.com/9a39a38b2a.js"
       crossorigin="anonymous"
@@ -22,7 +23,9 @@
     <!-- stylesheets starts -->
     <link
       rel="stylesheet"
-      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./styles/main.css" />
     <!-- stylesheets ends -->
@@ -30,9 +33,10 @@
   <!-- head ends -->
   <!-- body starts -->
   <body>
+    <!-- <img src="./img/Sans-titre-1.png" alt="back" class="background-img-1" /> -->
     <div class="container">
       <!-- navbar starts -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <!-- inserting logo strats-->
         <a href="#" class="navbar-brand">M</a>
         <!-- inserting logo ends -->
@@ -41,24 +45,134 @@
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="hamburger-menu"
+          data-target="#hamburger-menu"
           aria-controls="hamburger-menu"
           aria-expanded="false"
           aria-label="toggle-naviagtion"
         >
-          <span><i class="fas fa-bars"></i></span>
+          <i class="fas fa-bars"></i>
         </button>
         <!-- collapse hamburger-menu ends -->
         <!-- menues starts -->
         <div class="collapse navbar-collapse" id="hamburger-menu">
           <!-- lists starts -->
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Pages</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Elements</a></li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link"
+                id="homeDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Home</a
+              >
+              <div class="dropdown-menu" aria-labelledby="homeDropdown">
+                <a class="dropdown-item" href="#">Main Home</a>
+                <a class="dropdown-item" href="#">Home II</a>
+                <a class="dropdown-item" href="#">Home III</a>
+                <a class="dropdown-item" href="#">Home Blocks</a>
+                <a class="dropdown-item" href="#">Agency</a>
+                <a class="dropdown-item" href="#">App Presentation</a>
+                <a class="dropdown-item" href="#">Interavtive Link</a>
+                <a class="dropdown-item" href="#">One Page</a>
+                <a class="dropdown-item" href="#">Coming Soon</a>
+                <a class="dropdown-item" href="#">Landing</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link"
+                id="pageDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Pages</a
+              >
+              <div class="dropdown-menu" aria-labelledby="pageDropdown">
+                <a class="dropdown-item" href="#">About Us</a>
+                <a class="dropdown-item" href="#">About Me</a>
+                <a class="dropdown-item" href="#">Our Team</a>
+                <a class="dropdown-item" href="#">Our Services</a>
+                <a class="dropdown-item" href="#">Pricing Plan</a>
+                <a class="dropdown-item" href="#">Contact Us</a>
+                <a class="dropdown-item" href="#">FAQ</a>
+                <a class="dropdown-item" href="#">Our Clients</a>
+                <a class="dropdown-item" href="#">Coming Soon</a>
+                <a class="dropdown-item" href="#">Maintainace</a>
+                <a class="dropdown-item" href="#">Custom 404</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link"
+                id="portfolioDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Portfolio</a
+              >
+              <div class="dropdown-menu" aria-labelledby="portfolioDropdown">
+                <a class="dropdown-item" href="#">Portfolio Types</a>
+                <a class="dropdown-item" href="#">Portfolio Layouts</a>
+                <a class="dropdown-item" href="#">Single Works</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link"
+                id="shopDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Shop</a
+              >
+              <div class="dropdown-menu" aria-labelledby="shopDropdown">
+                <a class="dropdown-item" href="#">Layouts</a>
+                <a class="dropdown-item" href="#">Grid</a>
+                <a class="dropdown-item" href="#">Single Product</a>
+                <a class="dropdown-item" href="#">Pages</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link"
+                id="blogDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Blog</a
+              >
+              <div class="dropdown-menu" aria-labelledby="blogDropdown">
+                <a class="dropdown-item" href="#">Standard</a>
+                <a class="dropdown-item" href="#">Grid</a>
+                <a class="dropdown-item" href="#">Post Formats</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link"
+                id="homeDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Elements</a
+              >
+              <div class="dropdown-menu" aria-labelledby="homeDropdown">
+                <a class="dropdown-item" href="#">Need to work ....</a>
+              </div>
+            </li>
           </ul>
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -73,11 +187,358 @@
         <!-- menues ends-->
       </nav>
       <!-- navbar ends -->
+      <!-- display section starts -->
+      <div class="row display-section">
+        <div class="col-md-5">
+          <!-- img -->
+          <div class="img-container">
+            <img
+              src="./img/app-dark-phone1.png"
+              alt="phone top"
+              class="img-top"
+            />
+            <img
+              src="./img/app-dark-phone2.png"
+              alt="phone bottom"
+              class="img-bottom"
+            />
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5 about">
+          <!-- text -->
+          <div class="main-text">
+            <p>
+              Transform your phone into a
+              <span class="dash-back">Dashboard</span>
+            </p>
+          </div>
+          <div class="small-text">
+            <p>
+              Connect your phone via bluetooth to display instant real life data
+              on your screen
+            </p>
+          </div>
+          <div class="store-img">
+            <img src="./img/googleplay_button-1.png" alt="" class="img1" />
+            <img src="./img/appstore_button-2.png" alt="" class="img2" />
+          </div>
+        </div>
+        <div class="scroll-icon">
+          <img src="./img/scroll-d.png" alt="scroll" />
+        </div>
+      </div>
+      <!-- display section ends -->
+      <!-- counter starts -->
+      <div class="row counter-section">
+        <div class="col-md-3">
+          <div class="counter"><h1>120K+</h1></div>
+          <div class="name"><p>Total Downloads</p></div>
+        </div>
+        <div class="col-md-3">
+          <div class="counter"><h1>11K+</h1></div>
+          <div class="name"><p>Positive Reviews</p></div>
+        </div>
+        <div class="col-md-3">
+          <div class="counter"><h1>54K+</h1></div>
+          <div class="name"><p>Daily Visitors</p></div>
+        </div>
+        <div class="col-md-3">
+          <div class="counter"><h1>0.02%</h1></div>
+          <div class="name"><p>Uninstallation Rate</p></div>
+        </div>
+      </div>
+      <!-- counter ends -->
+      <!-- unique feature section starts -->
+      <div class="unique-features">
+        <h1 class="heading"><span class="unique">Unique</span> Features</h1>
+        <p class="sub-heading">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+          quod?
+        </p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="icon">
+              <i class="fas fa-tachometer-alt"></i>
+            </div>
+            <div class="title">
+              <h1>Live Data</h1>
+            </div>
+            <div class="desc">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="icon"><i class="fas fa-chart-line"></i></div>
+            <div class="title">
+              <h1>Diagonistic</h1>
+            </div>
+            <div class="desc">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="icon"><i class="fas fa-info-circle"></i></div>
+            <div class="title">
+              <h1>ABC</h1>
+            </div>
+            <div class="desc">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="icon"><i class="fas fa-chart-line"></i></div>
+            <div class="title">
+              <h1>ABC</h1>
+            </div>
+            <div class="desc">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="icon"><i class="fas fa-info-circle"></i></div>
+            <div class="title">
+              <h1>ABC</h1>
+            </div>
+            <div class="desc">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="icon"><i class="fas fa-tachometer-alt"></i></div>
+            <div class="title">
+              <h1>ABC</h1>
+            </div>
+            <div class="desc">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- unique feature section ends -->
+      <!-- phone starts -->
+      <div class="row phone">
+        <div class="col-md-6">
+          <img
+            src="./img/Free-Perspective-View-iPhone-X-Mockup.png"
+            alt=""
+            class="phone__img"
+          />
+        </div>
+        <div class="col-md-6">
+          <div>
+            <h1 class="phone__heading">
+              Connect Your Phone in Just One Click!
+            </h1>
+          </div>
+          <div>
+            <p class="phone__desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
+              odit dolorem asperiores officiis debitis suscipit.
+            </p>
+          </div>
+          <div>
+            <ul class="phone__list">
+              <li class="phone__list__item">
+                <i class="fas fa-chevron-right"></i> Quisque id odio
+              </li>
+              <li class="phone__list__item">
+                <i class="fas fa-chevron-right"></i> Quisque id odio
+              </li>
+              <li class="phone__list__item">
+                <i class="fas fa-chevron-right"></i> Quisque id odio
+              </li>
+            </ul>
+          </div>
+          <div>
+            <button class="phone__button btn btn-primary">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <!-- phone ends -->
+      <!-- video starts -->
+      <div class="row video">
+        <div class="col-md-6">
+          <div>
+            <h1 class="video__heading">
+              Don't just take Our Word for it, see what it in Action.
+            </h1>
+          </div>
+          <div>
+            <p class="video__desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div>
+            <button class="btn btn-primary video__button">
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <iframe
+            src="https://player.vimeo.com/video/208321034"
+            width="100%"
+            height="360"
+            frameborder="0"
+            allow="autoplay; fullscreen"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <!-- video ends -->
+      <!-- latest post starts -->
+      <div class="post">
+        <div>
+          <h1 class="post__heading">Latest Post</h1>
+          <p class="post__desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta,
+            sed.
+          </p>
+        </div>
+        <div class="row post__section">
+          <div class="col-md-4">
+            <div class="card" style="width: 100%;">
+              <img
+                src="https://i1.wp.com/demos.wolfthemes.com/milu/wp-content/uploads/sites/28/2019/04/oenline-course.jpg?fit=600%2C342&ssl=1"
+                alt="img"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Hello World</h5>
+                <p class="card-text small">April 29, 2020 · Mehedi</p>
+                <p class="card-text long">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima quis corporis quo maiores eius iure.
+                </p>
+                <a href="#"
+                  ><button class="btn card__button">
+                    Read More <i class="fas fa-chevron-right"></i></button
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 100%;">
+              <img
+                src="https://i1.wp.com/demos.wolfthemes.com/milu/wp-content/uploads/sites/28/2019/05/invest.jpg?fit=600%2C342&ssl=1"
+                alt="img"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Hello World</h5>
+                <p class="card-text small">April 29, 2020 · Mehedi</p>
+                <p class="card-text long">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima quis corporis quo maiores eius iure.
+                </p>
+                <a href="#"
+                  ><button class="btn btn-primary card__button">
+                    Read More <i class="fas fa-chevron-right"></i></button
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 100%;">
+              <img
+                src="https://i1.wp.com/demos.wolfthemes.com/milu/wp-content/uploads/sites/28/2019/05/video-marketing.jpg?fit=600%2C342&ssl=1"
+                alt="img"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Hello World</h5>
+                <p class="card-text small">April 29, 2020 · Mehedi</p>
+                <p class="card-text long">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima quis corporis quo maiores eius iure.
+                </p>
+                <a href="#"
+                  ><button class="btn btn-primary card__button">
+                    Read More <i class="fas fa-chevron-right"></i></button
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a href="#" class="post__more">
+            <p class="btn btn-primary">
+              View more post <i class="fas fa-chevron-right"></i>
+            </p>
+          </a>
+        </div>
+      </div>
+      <!-- latest post ends -->
+      <!-- first footer starts -->
+      <div class="row ffooter">
+        <div class="col-md-8">
+          <p>Start Creating your Website Now with Milu!</p>
+        </div>
+        <div class="col-md-4">
+          <div class="img-holder">
+            <img src="./img/googleplay_button-1.png" alt="" /><img
+              src="./img/appstore_button-2.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!-- first footer ends -->
+
+      <!-- footer starts -->
+      <footer>
+        <div class="row">
+          <div class="col-md-6">
+            <p>All Right Reserved 2016 © WolfThemes.</p>
+          </div>
+          <div class="col-md-6">
+            <div class="icons">
+              <div class="icon">
+                <i class="fab fa-facebook"></i>
+              </div>
+              <div class="icon">
+                <i class="fab fa-twitter"></i>
+              </div>
+              <div class="icon">
+                <i class="fab fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer ends -->
     </div>
     <!-- scripts -->
-    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="./node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/main.js"></script>
   </body>
   <!-- body ends -->
