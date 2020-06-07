@@ -33,7 +33,30 @@
   <!-- head ends -->
   <!-- body starts -->
   <body>
-    <!-- <img src="./img/Sans-titre-1.png" alt="back" class="background-img-1" /> -->
+    <!-- big nav items -->
+    <div class="big-nav-items" id="big-nav-items">
+      <h1 class="heading">Milu</h1>
+      <p class="desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+        tempore.
+      </p>
+      <hr />
+      <ul class="lists">
+        <li class="list-item">Creative</li>
+        <li class="list-item">Marketing</li>
+        <li class="list-item">Interactive</li>
+        <li class="list-item">Hosting</li>
+      </ul>
+      <hr />
+      <p class="mail">mehedi.hasansjs@gmail.com</p>
+      <p class="pnumber">01624350761</p>
+    </div>
+    <!-- big nav items -->
+    <img src="./img/Sans-titre-1.png" alt="back" class="background-img-1" />
+    <img src="./img/Sans-titre-3.png" alt="img" class="background-img-3" />
+    <img src="./img/Sans-titre-2-2.png" alt="img" class="background-img-4" />
+    <img src="./img/Sans-titre-3.png" alt="img" class="background-img-5" />
+    <img src="./img/wave-separator-red.png" alt="" class="background-img-6" />
     <div class="container">
       <!-- navbar starts -->
       <nav class="navbar navbar-expand-lg navbar-dark">
@@ -179,7 +202,9 @@
               <a href="#" class="nav-link"><button>Start Now</button></a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link"><i class="fas fa-bars"></i></a>
+              <a href="#" class="nav-link" id="big-nav"
+                ><i class="fas fa-bars"></i
+              ></a>
             </li>
           </ul>
           <!-- lists ends -->
@@ -220,8 +245,19 @@
             </p>
           </div>
           <div class="store-img">
-            <img src="./img/googleplay_button-1.png" alt="" class="img1" />
-            <img src="./img/appstore_button-2.png" alt="" class="img2" />
+            <a href="https://play.google.com/store/apps?hl=en" target="_blank"
+              ><img
+                src="./img/googleplay_button-1.png"
+                alt="google-play"
+                class="img1"
+            /></a>
+            <a href="https://www.apple.com/ios/app-store/" target="_blank">
+              <img
+                src="./img/appstore_button-2.png"
+                alt="app-store"
+                class="img2"
+              />
+            </a>
           </div>
         </div>
         <div class="scroll-icon">
@@ -232,25 +268,38 @@
       <!-- counter starts -->
       <div class="row counter-section">
         <div class="col-md-3">
-          <div class="counter"><h1>120K+</h1></div>
+          <div class="counter">
+            <h1 data-target="120" class="counter_h1"></h1>
+          </div>
           <div class="name"><p>Total Downloads</p></div>
         </div>
         <div class="col-md-3">
-          <div class="counter"><h1>11K+</h1></div>
+          <div class="counter">
+            <h1 data-target="11" class="counter_h1"></h1>
+          </div>
           <div class="name"><p>Positive Reviews</p></div>
         </div>
         <div class="col-md-3">
-          <div class="counter"><h1>54K+</h1></div>
+          <div class="counter">
+            <h1 data-target="54" class="counter_h1"></h1>
+          </div>
           <div class="name"><p>Daily Visitors</p></div>
         </div>
         <div class="col-md-3">
-          <div class="counter"><h1>0.02%</h1></div>
+          <div class="counter">
+            <h1>0.02%</h1>
+          </div>
           <div class="name"><p>Uninstallation Rate</p></div>
         </div>
       </div>
       <!-- counter ends -->
       <!-- unique feature section starts -->
       <div class="unique-features">
+        <img
+          src="./img/wave-separator-grey-light.png"
+          alt="wave"
+          class="background-img-2"
+        />
         <h1 class="heading"><span class="unique">Unique</span> Features</h1>
         <p class="sub-heading">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
@@ -284,7 +333,7 @@
           <div class="col-md-4">
             <div class="icon"><i class="fas fa-info-circle"></i></div>
             <div class="title">
-              <h1>ABC</h1>
+              <h1>Information</h1>
             </div>
             <div class="desc">
               <p>
@@ -295,7 +344,7 @@
           <div class="col-md-4">
             <div class="icon"><i class="fas fa-chart-line"></i></div>
             <div class="title">
-              <h1>ABC</h1>
+              <h1>Diagonstic</h1>
             </div>
             <div class="desc">
               <p>
@@ -306,7 +355,7 @@
           <div class="col-md-4">
             <div class="icon"><i class="fas fa-info-circle"></i></div>
             <div class="title">
-              <h1>ABC</h1>
+              <h1>Information</h1>
             </div>
             <div class="desc">
               <p>
@@ -317,7 +366,7 @@
           <div class="col-md-4">
             <div class="icon"><i class="fas fa-tachometer-alt"></i></div>
             <div class="title">
-              <h1>ABC</h1>
+              <h1>Live Data</h1>
             </div>
             <div class="desc">
               <p>
@@ -337,10 +386,10 @@
             class="phone__img"
           />
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 text">
           <div>
             <h1 class="phone__heading">
-              Connect Your Phone in Just One Click!
+              <span class="connect">Connect</span> Your Phone in Just One Click!
             </h1>
           </div>
           <div>
@@ -373,7 +422,8 @@
         <div class="col-md-6">
           <div>
             <h1 class="video__heading">
-              Don't just take Our Word for it, see what it in Action.
+              Don't just take Our Word for it, see what it in
+              <span class="action">Action</span>.
             </h1>
           </div>
           <div>
@@ -389,14 +439,12 @@
           </div>
         </div>
         <div class="col-md-6">
-          <iframe
-            src="https://player.vimeo.com/video/208321034"
-            width="100%"
-            height="360"
-            frameborder="0"
-            allow="autoplay; fullscreen"
-            allowfullscreen
-          ></iframe>
+          <video loop="loop" preload="auto" autoplay muted>
+            <source
+              src="https://demos.wolfthemes.com/milu/wp-content/uploads/sites/28/2019/07/Deloitte-Tech-Trends-online-video-cutter.com_.mp4"
+              type="video/mp4"
+            />
+          </video>
         </div>
       </div>
       <!-- video ends -->

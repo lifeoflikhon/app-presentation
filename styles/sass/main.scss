@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+// universal
 * {
   margin: 0;
   padding: 0;
@@ -8,16 +11,191 @@ body {
   background-color: #000;
   overflow-x: hidden;
   position: relative;
+  font-family: "Muli", sans-serif;
 }
 
+// keyframes
+@keyframes updown {
+  0% {
+    height: 750px;
+  }
+  25% {
+    height: 765px;
+  }
+  50% {
+    height: 780px;
+  }
+  75% {
+    height: 765px;
+  }
+  100% {
+    height: 750px;
+  }
+}
+
+@keyframes button-background {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes updownphone {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 20px;
+  }
+  50% {
+    top: 40px;
+  }
+  75% {
+    top: 20px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes updownscroll {
+  0% {
+    bottom: 100px;
+  }
+  25% {
+    bottom: 90px;
+  }
+  50% {
+    bottom: 80px;
+  }
+  75% {
+    bottom: 90px;
+  }
+  100% {
+    bottom: 100px;
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+// background images
 .background-img-1 {
   position: absolute;
   right: 0;
   top: 0;
   z-index: -100;
   width: 45%;
-  height: 65%;
+  height: 780px;
+  animation: updown 4s infinite;
 }
+
+.background-img-2 {
+  position: absolute;
+  left: -300px;
+  width: 100vw;
+  top: 10%;
+  z-index: -100;
+}
+
+.background-img-3 {
+  position: absolute;
+  right: 0;
+  top: 32%;
+  z-index: -90;
+}
+
+.background-img-4 {
+  position: absolute;
+  left: 0;
+  top: 43%;
+  z-index: -90;
+}
+
+.background-img-5 {
+  position: absolute;
+  right: 0;
+  top: 63%;
+  z-index: -90;
+}
+
+.background-img-6 {
+  position: absolute;
+  right: 0;
+  top: 90%;
+  z-index: -100;
+}
+
+// big nav
+.big-nav-items {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  display: none;
+  flex-direction: column;
+  height: 100vh;
+  width: 25%;
+  z-index: 1000;
+  padding: 50px;
+  transition: all 1s ease;
+  .heading {
+    font-weight: 800;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 80px;
+      background-color: #f5c55e;
+      height: 20px;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+    }
+  }
+  .desc {
+    opacity: 0.5;
+  }
+
+  hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .lists {
+    list-style-type: none;
+    .list-item {
+      margin: 20px 0;
+      font-weight: 700;
+      font-size: 1.5em;
+    }
+  }
+
+  .mail,
+  .pnumber {
+    opacity: 0.6;
+    font-size: 0.8em;
+    margin: 5px 0;
+    padding: 0;
+  }
+}
+
+// naviagtion bar
 .navbar-dark {
   background-color: transparent;
   position: relative;
@@ -27,14 +205,13 @@ body {
       width: 50px;
       height: 12px;
       position: absolute;
-      bottom: 20px;
+      bottom: 25px;
       left: 10px;
       z-index: -1;
       background-color: #ffc050;
     }
     font-weight: 900;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Muli", sans-serif;
     font-size: 40px;
   }
   .navbar-toggler {
@@ -56,9 +233,7 @@ body {
             margin-top: 3px;
             margin-bottom: 3px;
             font-weight: 700;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-              Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-              sans-serif;
+            font-family: "Muli", sans-serif;
             font-size: 13px;
           }
         }
@@ -104,18 +279,6 @@ body {
   }
 }
 
-@keyframes button-background {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 // display-section
 .display-section {
   position: relative;
@@ -132,6 +295,7 @@ body {
       position: relative;
       top: 0;
       left: 0;
+      animation: updownphone 10s infinite;
     }
     .img-bottom {
       width: 270px;
@@ -139,6 +303,7 @@ body {
       top: 30px;
       left: 200px;
       z-index: -100;
+      animation: updownphone 7s infinite;
     }
   }
   .main-text {
@@ -154,14 +319,15 @@ body {
       position: absolute;
       bottom: 5px;
       left: 0;
-      width: 85%;
+      width: 70%;
       height: 20px;
       background-color: rgb(255, 120, 111);
       z-index: -1;
     }
   }
   .small-text {
-    font-size: 20px;
+    margin: 50px 0;
+    font-size: 16px;
     line-height: 1.3;
     color: #fff;
     font-weight: 200;
@@ -173,6 +339,7 @@ body {
     bottom: 100px;
     left: 50%;
     color: #fff;
+    animation: updownscroll 7s infinite;
     img {
       width: 50%;
     }
@@ -181,7 +348,9 @@ body {
 
 // counter
 .counter-section {
-  height: 100%;
+  display: flex;
+  align-items: center;
+  height: 40vh;
   .counter h1,
   .name p {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -202,7 +371,7 @@ body {
 
 // unique features
 .unique-features {
-  height: 60vh;
+  height: 80vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -215,6 +384,20 @@ body {
   .heading {
     margin: 30px;
     font-weight: 800;
+    .unique::after {
+      content: "";
+      position: absolute;
+      top: 150px;
+      left: 36%;
+      width: 135px;
+      height: 20px;
+      background-color: rgb(255, 120, 111);
+      z-index: -1;
+    }
+  }
+
+  .col-md-4 {
+    padding: 20px;
   }
 
   .title h1 {
@@ -234,21 +417,38 @@ body {
 
 // phone
 .phone {
-  height: 50vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
 
   &__img {
-    width: 100%;
+    width: 105%;
+    animation: fadeInLeft 1s 1;
+  }
+
+  .text {
+    animation: updownscroll 9s infinite;
   }
 
   &__heading {
+    position: relative;
+    margin: 50px 0;
     color: #fff;
+    font-size: 3em;
     font-weight: 800;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     line-height: 1.4;
+    .connect::before {
+      content: "";
+      position: absolute;
+      background-color: #ff786f;
+      height: 20px;
+      width: 4em;
+      top: 0.9em;
+      z-index: -1;
+    }
   }
 
   &__desc {
@@ -283,17 +483,35 @@ body {
 
 // video
 .video {
-  height: 50vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
 
+  video {
+    width: 720px;
+    height: 600px;
+  }
+
   &__heading {
+    width: 75%;
     color: #fff;
     font-weight: 800;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    line-height: 1.4;
+    line-height: 1.5;
+    font-size: 3em;
+    position: relative;
+    .action::after {
+      content: "";
+      background-color: #ff786f;
+      position: absolute;
+      width: 3.2em;
+      height: 20px;
+      z-index: -1;
+      bottom: 10px;
+      left: 0;
+    }
   }
 
   &__desc {
@@ -320,7 +538,7 @@ body {
 
 // post
 .post {
-  height: 70vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -332,6 +550,7 @@ body {
     margin-bottom: 50px;
   }
   &__heading {
+    font-size: 3em;
     text-align: center;
     margin-bottom: 30px;
   }
@@ -390,6 +609,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    top: 120px;
+    left: -280px;
+    content: "";
+    z-index: -100;
+    width: 100vw;
+    height: 100px;
+    background-color: #ff786f;
+  }
 
   p {
     color: #fff;
