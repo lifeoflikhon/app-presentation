@@ -49,3 +49,9 @@ counters.forEach((counter) => {
 // misc
 const displaySectionHeading = document.getElementById("displaySectionHeading");
 displaySectionHeading.style.textTransform = "capitalize";
+
+// loader
+const pageLoader = document.querySelector(".pageLoader");
+setInterval(() => {
+  pageLoader.style.display = "none";
+}, 2000);
