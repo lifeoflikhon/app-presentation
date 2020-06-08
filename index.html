@@ -15,7 +15,6 @@
     <title>App Presentation</title>
 
     <!-- fontawesome icon -->
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <script
       src="https://kit.fontawesome.com/9a39a38b2a.js"
       crossorigin="anonymous"
@@ -42,21 +41,44 @@
       </p>
       <hr />
       <ul class="lists">
-        <li class="list-item">Creative</li>
-        <li class="list-item">Marketing</li>
-        <li class="list-item">Interactive</li>
-        <li class="list-item">Hosting</li>
+        <a href="index.html"><li class="list-item">Creative</li></a>
+        <a href="index.html"><li class="list-item">Marketing</li></a>
+        <a href="index.html"><li class="list-item">Interactive</li></a>
+        <a href="index.html"><li class="list-item">Hosting</li></a>
       </ul>
       <hr />
       <p class="mail">mehedi.hasansjs@gmail.com</p>
       <p class="pnumber">01624350761</p>
     </div>
+    <div class="small-nav-items" id="small-nav-items">
+      <ul class="lists">
+        <a href="#"><li class="list-item">Home</li></a>
+        <a href="#"><li class="list-item">Pages</li></a>
+        <a href="#"><li class="list-item">Portfolio</li></a>
+        <a href="#"><li class="list-item">Shop</li></a>
+        <a href="#"><li class="list-item">Blog</li></a>
+      </ul>
+    </div>
     <!-- big nav items -->
+    <!-- images -->
     <img src="./img/Sans-titre-1.png" alt="back" class="background-img-1" />
+    <img
+      src="./img/wave-separator-grey-light.png"
+      alt="wave"
+      class="background-img-2"
+    />
     <img src="./img/Sans-titre-3.png" alt="img" class="background-img-3" />
     <img src="./img/Sans-titre-2-2.png" alt="img" class="background-img-4" />
     <img src="./img/Sans-titre-3.png" alt="img" class="background-img-5" />
-    <img src="./img/wave-separator-red.png" alt="" class="background-img-6" />
+    <img
+      src="./img/wave-separator-red.png"
+      alt="img"
+      class="background-img-6"
+    />
+    <img src="./img/Sans-titre-2-2_1.png" alt="img" class="background-img-7" />
+    <!-- images -->
+
+    <!-- container starts -->
     <div class="container">
       <!-- navbar starts -->
       <nav class="navbar navbar-expand-lg navbar-dark">
@@ -79,7 +101,7 @@
         <!-- menues starts -->
         <div class="collapse navbar-collapse" id="hamburger-menu">
           <!-- lists starts -->
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav mr-auto md-hidden">
             <li class="nav-item dropdown">
               <a
                 href="#"
@@ -197,7 +219,7 @@
               </div>
             </li>
           </ul>
-          <ul class="navbar-nav">
+          <ul class="navbar-nav md-hidden">
             <li class="nav-item">
               <a href="#" class="nav-link"><button>Start Now</button></a>
             </li>
@@ -214,7 +236,7 @@
       <!-- navbar ends -->
       <!-- display section starts -->
       <div class="row display-section">
-        <div class="col-md-5">
+        <div class="col-lg-6 col-sm-12">
           <!-- img -->
           <div class="img-container">
             <img
@@ -229,14 +251,13 @@
             />
           </div>
         </div>
-        <div class="col-md-2"></div>
-        <div class="col-md-5 about">
+        <div class="col-lg-6 col-sm-12 about">
           <!-- text -->
           <div class="main-text">
-            <p>
+            <h1 id="displaySectionHeading">
               Transform your phone into a
               <span class="dash-back">Dashboard</span>
-            </p>
+            </h1>
           </div>
           <div class="small-text">
             <p>
@@ -260,118 +281,91 @@
             </a>
           </div>
         </div>
-        <div class="scroll-icon">
-          <img src="./img/scroll-d.png" alt="scroll" />
-        </div>
+        <img src="./img/scroll-d.png" alt="scroll" class="scroll-icon" />
       </div>
       <!-- display section ends -->
       <!-- counter starts -->
-      <div class="row counter-section">
-        <div class="col-md-3">
-          <div class="counter">
-            <h1 data-target="120" class="counter_h1"></h1>
-          </div>
-          <div class="name"><p>Total Downloads</p></div>
+      <div class="row counter-section text-center">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <h1 data-target="120" class="counter_h1"></h1>
+          <p>Total Downloads</p>
         </div>
-        <div class="col-md-3">
-          <div class="counter">
-            <h1 data-target="11" class="counter_h1"></h1>
-          </div>
-          <div class="name"><p>Positive Reviews</p></div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <h1 data-target="11" class="counter_h1"></h1>
+          <p>Positive Reviews</p>
         </div>
-        <div class="col-md-3">
-          <div class="counter">
-            <h1 data-target="54" class="counter_h1"></h1>
-          </div>
-          <div class="name"><p>Daily Visitors</p></div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <h1 data-target="54" class="counter_h1"></h1>
+          <p>Daily Visitors</p>
         </div>
-        <div class="col-md-3">
-          <div class="counter">
-            <h1>0.02%</h1>
-          </div>
-          <div class="name"><p>Uninstallation Rate</p></div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <h1>0.02%</h1>
+          <p>Uninstallation Rate</p>
         </div>
       </div>
       <!-- counter ends -->
       <!-- unique feature section starts -->
-      <div class="unique-features">
-        <img
-          src="./img/wave-separator-grey-light.png"
-          alt="wave"
-          class="background-img-2"
-        />
-        <h1 class="heading"><span class="unique">Unique</span> Features</h1>
-        <p class="sub-heading">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-          quod?
-        </p>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="icon">
-              <i class="fas fa-tachometer-alt"></i>
-            </div>
-            <div class="title">
-              <h1>Live Data</h1>
-            </div>
-            <div class="desc">
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
+      <div class="row unique-features text-center">
+        <div class="col-lg-12 u-section-top">
+          <h1 class="heading"><span class="unique">Unique</span> Features</h1>
+          <p class="sub-heading">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+            quod?
+          </p>
+        </div>
+        <div class="row col-lg-12">
+          <div class="col-lg-4 col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <i class="fas fa-tachometer-alt icon"></i>
+                <h1>Live Data</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="icon"><i class="fas fa-chart-line"></i></div>
-            <div class="title">
-              <h1>Diagonistic</h1>
-            </div>
-            <div class="desc">
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
+          <div class="col-lg-4 col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <i class="fas fa-tachometer-alt icon"></i>
+                <h1>Information</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="icon"><i class="fas fa-info-circle"></i></div>
-            <div class="title">
-              <h1>Information</h1>
-            </div>
-            <div class="desc">
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
+          <div class="col-lg-4 col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <i class="fas fa-tachometer-alt icon"></i>
+                <h1>Diagonstic</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="icon"><i class="fas fa-chart-line"></i></div>
-            <div class="title">
-              <h1>Diagonstic</h1>
-            </div>
-            <div class="desc">
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
+          <div class="col-lg-4 col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <i class="fas fa-tachometer-alt icon"></i>
+                <h1>Information</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="icon"><i class="fas fa-info-circle"></i></div>
-            <div class="title">
-              <h1>Information</h1>
-            </div>
-            <div class="desc">
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
+          <div class="col-lg-4 col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <i class="fas fa-tachometer-alt icon"></i>
+                <h1>Live Data</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="icon"><i class="fas fa-tachometer-alt"></i></div>
-            <div class="title">
-              <h1>Live Data</h1>
-            </div>
-            <div class="desc">
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
+          <div class="col-lg-4 col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <i class="fas fa-tachometer-alt icon"></i>
+                <h1>Live Data</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+              </div>
             </div>
           </div>
         </div>
@@ -379,14 +373,14 @@
       <!-- unique feature section ends -->
       <!-- phone starts -->
       <div class="row phone">
-        <div class="col-md-6">
+        <div class="col-lg-6 col-md-12 col-sm-12">
           <img
             src="./img/Free-Perspective-View-iPhone-X-Mockup.png"
             alt=""
             class="phone__img"
           />
         </div>
-        <div class="col-md-6 text">
+        <div class="col-lg-6 col-md-12 col-sm-12 text">
           <div>
             <h1 class="phone__heading">
               <span class="connect">Connect</span> Your Phone in Just One Click!
@@ -419,7 +413,7 @@
       <!-- phone ends -->
       <!-- video starts -->
       <div class="row video">
-        <div class="col-md-6">
+        <div class="col-lg-6 col-md-12 col-sm-12">
           <div>
             <h1 class="video__heading">
               Don't just take Our Word for it, see what it in
@@ -438,8 +432,15 @@
             </button>
           </div>
         </div>
-        <div class="col-md-6">
-          <video loop="loop" preload="auto" autoplay muted>
+        <div class="col-lg-6 col-md-12 col-sm-12 video-container">
+          <video
+            loop="loop"
+            preload="auto"
+            autoplay
+            muted
+            data-toggle="modal"
+            data-target="#videoLarge"
+          >
             <source
               src="https://demos.wolfthemes.com/milu/wp-content/uploads/sites/28/2019/07/Deloitte-Tech-Trends-online-video-cutter.com_.mp4"
               type="video/mp4"
@@ -450,80 +451,88 @@
       <!-- video ends -->
       <!-- latest post starts -->
       <div class="row post">
-        <div>
-          <h1 class="post__heading">Latest Post</h1>
+        <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+          <h1 class="post__heading">Latest <span class="back">Post</span></h1>
           <p class="post__desc">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta,
             sed.
           </p>
         </div>
-        <div class="row post__section">
-          <div class="col-md-4">
-            <div class="card" style="width: 100%;">
-              <img
-                src="https://i1.wp.com/demos.wolfthemes.com/milu/wp-content/uploads/sites/28/2019/04/oenline-course.jpg?fit=600%2C342&ssl=1"
-                alt="img"
-                class="card-img-top"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Hello World</h5>
-                <p class="card-text small">April 29, 2020 · Mehedi</p>
-                <p class="card-text long">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Minima quis corporis quo maiores eius iure.
-                </p>
-                <a href="#"
-                  ><button class="btn card__button">
-                    Read More <i class="fas fa-chevron-right"></i></button
-                ></a>
-              </div>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="row post__section">
+            <div class="col-lg-4 col-md-12">
+              <a href="posts/post-1.html">
+                <div class="card" style="width: 100%;">
+                  <img
+                    src="https://i1.wp.com/demos.wolfthemes.com/milu/wp-content/uploads/sites/28/2019/04/oenline-course.jpg?fit=600%2C342&ssl=1"
+                    alt="img"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Hello World</h5>
+                    <p class="card-text small">April 29, 2020 · Mehedi</p>
+                    <p class="card-text long">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Minima quis corporis quo maiores eius iure.
+                    </p>
+                    <a href="posts/post-1.html"
+                      ><button class="btn card__button">
+                        Read More <i class="fas fa-chevron-right"></i></button
+                    ></a>
+                  </div>
+                </div>
+              </a>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: 100%;">
-              <img
-                src="https://i1.wp.com/demos.wolfthemes.com/milu/wp-content/uploads/sites/28/2019/05/invest.jpg?fit=600%2C342&ssl=1"
-                alt="img"
-                class="card-img-top"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Hello World</h5>
-                <p class="card-text small">April 29, 2020 · Mehedi</p>
-                <p class="card-text long">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Minima quis corporis quo maiores eius iure.
-                </p>
-                <a href="#"
-                  ><button class="btn btn-primary card__button">
-                    Read More <i class="fas fa-chevron-right"></i></button
-                ></a>
-              </div>
+            <div class="col-lg-4 col-md-12">
+              <a href="posts/post-2.html">
+                <div class="card" style="width: 100%;">
+                  <img
+                    src="https://i1.wp.com/demos.wolfthemes.com/milu/wp-content/uploads/sites/28/2019/05/invest.jpg?fit=600%2C342&ssl=1"
+                    alt="img"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Hello World</h5>
+                    <p class="card-text small">April 29, 2020 · Mehedi</p>
+                    <p class="card-text long">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Minima quis corporis quo maiores eius iure.
+                    </p>
+                    <a href="posts/post-2.html"
+                      ><button class="btn btn-primary card__button">
+                        Read More <i class="fas fa-chevron-right"></i></button
+                    ></a>
+                  </div>
+                </div>
+              </a>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: 100%;">
-              <img
-                src="https://i1.wp.com/demos.wolfthemes.com/milu/wp-content/uploads/sites/28/2019/05/video-marketing.jpg?fit=600%2C342&ssl=1"
-                alt="img"
-                class="card-img-top"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Hello World</h5>
-                <p class="card-text small">April 29, 2020 · Mehedi</p>
-                <p class="card-text long">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Minima quis corporis quo maiores eius iure.
-                </p>
-                <a href="#"
-                  ><button class="btn btn-primary card__button">
-                    Read More <i class="fas fa-chevron-right"></i></button
-                ></a>
-              </div>
+            <div class="col-lg-4 col-md-12">
+              <a href="posts/post-3.html">
+                <div class="card" style="width: 100%;">
+                  <img
+                    src="https://i1.wp.com/demos.wolfthemes.com/milu/wp-content/uploads/sites/28/2019/05/video-marketing.jpg?fit=600%2C342&ssl=1"
+                    alt="img"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Hello World</h5>
+                    <p class="card-text small">April 29, 2020 · Mehedi</p>
+                    <p class="card-text long">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Minima quis corporis quo maiores eius iure.
+                    </p>
+                    <a href="posts/post-3.html"
+                      ><button class="btn btn-primary card__button">
+                        Read More <i class="fas fa-chevron-right"></i></button
+                    ></a>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
-        <div>
-          <a href="#" class="post__more">
+        <div class="col-lg-12 col-md-12 col-sm-12 text-center more-post">
+          <a href="posts/index.html" class="post__more">
             <p class="btn btn-primary">
               View more post <i class="fas fa-chevron-right"></i>
             </p>
@@ -533,25 +542,22 @@
       <!-- latest post ends -->
       <!-- first footer starts -->
       <div class="row ffooter">
-        <div class="col-md-8">
-          <p>Start Creating your Website Now with Milu!</p>
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <h1>Start Creating your Website Now with Milu!</h1>
         </div>
-        <div class="col-md-4">
-          <div class="img-holder">
-            <img src="./img/googleplay_button-1.png" alt="" /><img
-              src="./img/appstore_button-2.png"
-              alt=""
-            />
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="row img-holder">
+            <img src="./img/googleplay_button-1.png" alt="" class="col-md-6" />
+            <img src="./img/appstore_button-2.png" alt="" class="col-md-6" />
           </div>
         </div>
       </div>
       <!-- first footer ends -->
-
       <!-- footer starts -->
       <footer>
         <div class="row">
           <div class="col-md-6">
-            <p>All Right Reserved 2016 © WolfThemes.</p>
+            <p>All Right Reserved 2016 &copy; WolfThemes.</p>
           </div>
           <div class="col-md-6">
             <div class="icons">
@@ -569,6 +575,54 @@
         </div>
       </footer>
       <!-- footer ends -->
+    </div>
+    <!-- container ends -->
+
+    <!-- modals -->
+    <!-- video -->
+    <div
+      class="modal fade"
+      id="videoLarge"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div
+              style="padding: 56.25% 0 0 0; position: relative;"
+              class="modal-video-holder"
+            >
+              <iframe
+                class="modal-video"
+                src="https://player.vimeo.com/video/208321034"
+                style="
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                "
+                frameborder="0"
+                allow="autoplay; fullscreen"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- scripts -->
     <!-- JS, Popper.js, and jQuery -->
