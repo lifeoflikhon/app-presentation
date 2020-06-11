@@ -105,7 +105,7 @@ Making a website like [this one](https://demos.wolfthemes.com/milu/main-home/app
 - [X] Blog List
 - [x] Bottons
 - [x] Call To Action
-- [ ] Clients
+- [x] Clients
 - [ ] Coutdown
 - [ ] Counter
 - [ ] Forms
