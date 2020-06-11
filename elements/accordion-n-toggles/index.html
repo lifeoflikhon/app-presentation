@@ -1,0 +1,350 @@
+<!--
+  © Mehedi Hasan Likhon
+  Inspired by: https://demos.wolfthemes.com/milu/main-home/app-presentation/
+  Provided by: AITS
+  Date: June 06 2020
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head starts -->
+  <head>
+    <!-- meta strats -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- meta ends -->
+    <title>App Presentation</title>
+
+    <!-- fontawesome icon -->
+    <script
+      src="https://kit.fontawesome.com/9a39a38b2a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- stylesheets starts -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- stylesheets ends -->
+  </head>
+  <!-- head ends -->
+  <body>
+    <div class="jumbotron">
+      <h1 class="background">
+        Accordion & Toogles
+      </h1>
+      <h1 class="normal">Accordion & Toggles</h1>
+    </div>
+    <div class="top-accordion">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 accordion-1">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link"
+                      data-toggle="collapse"
+                      data-target="#a1-h1"
+                      aria-expanded="true"
+                      aria-controls="a1-h1"
+                    >
+                      Is the demo content included?
+                    </button>
+                  </h5>
+                </div>
+
+                <div
+                  id="a1-h1"
+                  class="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Yes, you can import the whole demo content using our awesome
+                    one-click demo importer feature after installing the theme.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#a1-h2"
+                      aria-expanded="false"
+                      aria-controls="a1-h2"
+                    >
+                      Is it easy to install?
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="a1-h2"
+                  class="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia, officia.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#a1-h3"
+                      aria-expanded="false"
+                      aria-controls="a1-h3"
+                    >
+                      Can I easily change color?
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="a1-h3"
+                  class="collapse"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia, officia.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 accordion-2">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link"
+                      data-toggle="collapse"
+                      data-target="#a2-h1"
+                      aria-expanded="true"
+                      aria-controls="a2-h1"
+                    >
+                      Collapsible Group Item #1
+                    </button>
+                  </h5>
+                </div>
+
+                <div
+                  id="a2-h1"
+                  class="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia, officia.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#a2-h2"
+                      aria-expanded="false"
+                      aria-controls="a2-h2"
+                    >
+                      Collapsible Group Item #2
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="a2-h2"
+                  class="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia, officia.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#a2-h3"
+                      aria-expanded="false"
+                      aria-controls="a2-h3"
+                    >
+                      Collapsible Group Item #3
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="a2-h3"
+                  class="collapse"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia, officia.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-accordion">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link"
+                      data-toggle="collapse"
+                      data-target="#a3-h1"
+                      aria-expanded="true"
+                      aria-controls="a3-h1"
+                    >
+                      <i class="fas fa-plus icon"></i> Is the demo content
+                      included?
+                    </button>
+                  </h5>
+                </div>
+
+                <div
+                  id="a3-h1"
+                  class="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Accusamus, harum?
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link"
+                      data-toggle="collapse"
+                      data-target="#a3-h2"
+                      aria-expanded="true"
+                      aria-controls="a3-h2"
+                    >
+                      <i class="fas fa-plus icon"></i> Is it easy to install?
+                    </button>
+                  </h5>
+                </div>
+
+                <div
+                  id="a3-h2"
+                  class="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Accusamus, harum?
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link"
+                      data-toggle="collapse"
+                      data-target="#a3-h3"
+                      aria-expanded="true"
+                      aria-controls="a3-h3"
+                    >
+                      <i class="fas fa-plus icon"></i> Can I easily change
+                      colors?
+                    </button>
+                  </h5>
+                </div>
+
+                <div
+                  id="a3-h3"
+                  class="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Accusamus, harum?
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link"
+                      data-toggle="collapse"
+                      data-target="#a3-h4"
+                      aria-expanded="true"
+                      aria-controls="a3-h4"
+                    >
+                      <i class="fas fa-plus icon"></i> Can I get help to install
+                      and use the theme?
+                    </button>
+                  </h5>
+                </div>
+
+                <div
+                  id="a3-h4"
+                  class="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Accusamus, harum?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

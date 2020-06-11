@@ -19,6 +19,7 @@ Making a website like [this one](https://demos.wolfthemes.com/milu/main-home/app
 - [ ] Landing
 
 ### Pages
+
 - [ ] About Us
 - [ ] About Me
 - [ ] Our Team
@@ -32,6 +33,7 @@ Making a website like [this one](https://demos.wolfthemes.com/milu/main-home/app
 - [x] Custom 404
 
 ### Portfolio
+
 - [ ] Standard
 - [ ] Gallery
 - [ ] Gallery Joined
@@ -58,6 +60,7 @@ Making a website like [this one](https://demos.wolfthemes.com/milu/main-home/app
 - [ ] Rich Layout
 
 ### Shop
+
 - [ ] Right Sidebar
 - [ ] Left Sidebar
 - [ ] Metro Boxed
@@ -82,6 +85,7 @@ Making a website like [this one](https://demos.wolfthemes.com/milu/main-home/app
 - [ ] Terms & Conditions
 
 ### Blog
+
 - [x] Right Sidebar
 - [ ] Left Sidebar
 - [ ] No Sidebar
@@ -96,9 +100,10 @@ Making a website like [this one](https://demos.wolfthemes.com/milu/main-home/app
 - [ ] Rich Layout
 
 ### Elements
-- [ ] Accordion & Toggles
-- [ ] Blog List
-- [ ] Bottons
+
+- [x] Accordion & Toggles
+- [X] Blog List
+- [x] Bottons
 - [ ] Call To Action
 - [ ] Clients
 - [ ] Coutdown
