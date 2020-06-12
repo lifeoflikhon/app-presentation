@@ -1,3 +1,4 @@
+@import "./components/universal.scss";
 @import "./components/loader.scss";
 @import "./components/background.scss";
 @import "./components/underline.scss";
@@ -14,10 +15,6 @@
 
 // media
 @import "./media/768px.scss";
-
-body {
-  background-color: #000;
-}
 
 // -------------
 #orange-img {

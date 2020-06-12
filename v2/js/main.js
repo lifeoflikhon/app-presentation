@@ -8,17 +8,10 @@ import { connect } from "./components/connect.js";
 import { features } from "./components/features.js";
 import { counter } from "./components/counter.js";
 import { dashboard } from "./components/dashboard.js";
+import { nav } from "./components/nav.js";
 
-const loaderEl = document.getElementById("loader");
-// loaderEl.innerHTML = loader();
-
-// const backgroundEl = document.getElementById("background");
-
-// setInterval(() => {
-//   loaderEl.style.display = "none";
-//   backgroundEl.style.height = "0";
-// }, 4000);
-
+// loader("loader");
+nav("navbar", "big-nav", "small-nav");
 dashboard("dashboard");
 counter("counter");
 features("features");

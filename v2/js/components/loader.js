@@ -1,4 +1,4 @@
-export function loader() {
+function loaderEl() {
   return `
   <div class="cube-wrapper">
     <div class="cube-folding">
@@ -8,4 +8,14 @@ export function loader() {
       <span class="leaf4"></span>
     </div>
   </div>`;
+}
+
+export function loader(id) {
+  document.getElementById(id).innerHTML = loader();
+  const backgroundEl = document.getElementById("background");
+
+  setInterval(() => {
+    document.getElementById(id).style.display = "none";
+    backgroundEl.style.height = "0";
+  }, 4000);
 }

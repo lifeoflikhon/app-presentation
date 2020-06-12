@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,577;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,577;1,600;1,700;1,800;1,900&display=swap");
+/* line 3, ../sass/components/universal.scss */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 9, ../sass/components/universal.scss */
+body {
+  background-color: #000;
+  font-family: "Muli", sans-serif;
+}
+
 /* line 8, ../sass/components/loader.scss */
 .cube-folding {
   width: 50px;
@@ -247,6 +261,191 @@
 /* line 2, ../sass/components/underline.scss */
 .underliner {
   box-shadow: inset 0 -15px 0 0 #ffc050;
+}
+
+/* line 2, ../sass/components/underline.scss */
+#navbar .underliner {
+  box-shadow: inset 0 -15px 0 0 #ffc050;
+}
+/* line 4, ../sass/components/navbarStyled.scss */
+#navbar .navbar-dark {
+  background-color: transparent !important;
+}
+/* line 6, ../sass/components/navbarStyled.scss */
+#navbar .navbar-dark .navbar-toggler {
+  color: #fff;
+  font-size: 1.5em;
+}
+/* line 12, ../sass/components/navbarStyled.scss */
+#navbar .nav-link {
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+/* line 21, ../sass/components/navbarStyled.scss */
+#navbar .nav-item {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  margin: 0 10px;
+}
+/* line 27, ../sass/components/navbarStyled.scss */
+#navbar .dropdown-menu {
+  border-radius: 10px;
+  width: max-content !important;
+}
+/* line 32, ../sass/components/navbarStyled.scss */
+#navbar .navbar-brand {
+  font-weight: 800;
+}
+/* line 36, ../sass/components/navbarStyled.scss */
+#navbar .btn {
+  border: 0;
+  color: #fff;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+}
+/* line 44, ../sass/components/navbarStyled.scss */
+#navbar .btn-warning {
+  background-color: #ff786f;
+}
+/* line 46, ../sass/components/navbarStyled.scss */
+#navbar .btn-warning:hover {
+  background-image: linear-gradient(to right, #ff938c 0%, #f3726a 51%, #d9665f 100%);
+}
+/* line 56, ../sass/components/navbarStyled.scss */
+#navbar .btn.btn-light {
+  background-color: transparent;
+  font-size: 1.4em;
+  padding: 0;
+  margin: 0 !important;
+  line-height: 0;
+}
+/* line 64, ../sass/components/navbarStyled.scss */
+#navbar .nav-item.sec-menus {
+  margin: 0;
+  align-self: center;
+  outline: 0;
+}
+/* line 71, ../sass/components/navbarStyled.scss */
+#navbar .home:hover .home-menu {
+  display: inline !important;
+}
+/* line 77, ../sass/components/navbarStyled.scss */
+#navbar .pages:hover .pages-menu {
+  display: inline !important;
+}
+/* line 83, ../sass/components/navbarStyled.scss */
+#navbar .portfolio:hover .portfolio-menu {
+  display: inline !important;
+}
+/* line 86, ../sass/components/navbarStyled.scss */
+#navbar .portfolio:hover .portfolio-menu .types:hover .types-menu {
+  display: inline !important;
+}
+/* line 91, ../sass/components/navbarStyled.scss */
+#navbar .portfolio:hover .portfolio-menu .layouts:hover .layouts-menu {
+  display: inline !important;
+}
+/* line 96, ../sass/components/navbarStyled.scss */
+#navbar .portfolio:hover .portfolio-menu .single:hover .single-menu {
+  display: inline !important;
+}
+/* line 104, ../sass/components/navbarStyled.scss */
+#navbar .shop:hover .shop-menu {
+  display: inline !important;
+}
+/* line 107, ../sass/components/navbarStyled.scss */
+#navbar .shop:hover .shop-menu .layouts:hover .layouts-menu {
+  display: inline !important;
+}
+/* line 112, ../sass/components/navbarStyled.scss */
+#navbar .shop:hover .shop-menu .grid:hover .grid-menu {
+  display: inline !important;
+}
+/* line 117, ../sass/components/navbarStyled.scss */
+#navbar .shop:hover .shop-menu .single:hover .single-menu {
+  display: inline !important;
+}
+/* line 122, ../sass/components/navbarStyled.scss */
+#navbar .shop:hover .shop-menu .pages:hover .pages-menu {
+  display: inline !important;
+}
+/* line 130, ../sass/components/navbarStyled.scss */
+#navbar .blog:hover .blog-menu {
+  display: inline !important;
+}
+/* line 133, ../sass/components/navbarStyled.scss */
+#navbar .blog:hover .blog-menu .standard:hover .standard-menu {
+  display: inline !important;
+}
+/* line 138, ../sass/components/navbarStyled.scss */
+#navbar .blog:hover .blog-menu .formats:hover .formats-menu {
+  display: inline !important;
+}
+/* line 146, ../sass/components/navbarStyled.scss */
+#navbar .elements:hover .elements-menu {
+  display: inline !important;
+}
+
+/* line 153, ../sass/components/navbarStyled.scss */
+#big-nav {
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.712);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1100;
+}
+/* line 162, ../sass/components/navbarStyled.scss */
+#big-nav #close {
+  width: 100%;
+  height: 100%;
+  cursor: url("./../../img/delete-sign.png"), pointer;
+}
+/* line 167, ../sass/components/navbarStyled.scss */
+#big-nav .card {
+  height: 100vh;
+}
+/* line 169, ../sass/components/navbarStyled.scss */
+#big-nav .card hr {
+  color: #000;
+}
+
+/* line 176, ../sass/components/navbarStyled.scss */
+#small-nav {
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.712);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1100;
+}
+/* line 185, ../sass/components/navbarStyled.scss */
+#small-nav #close-sm {
+  width: 100%;
+  height: 100%;
+  cursor: url("./../../img/delete-sign.png"), pointer;
+}
+/* line 190, ../sass/components/navbarStyled.scss */
+#small-nav .card {
+  height: 100vh;
+}
+/* line 192, ../sass/components/navbarStyled.scss */
+#small-nav .card #x {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  font-size: 2em;
+  cursor: pointer;
 }
 
 /* line 2, ../sass/components/dashboard.scss */
@@ -546,19 +745,14 @@ body #chat-bot::after {
     padding: 0;
   }
 }
-/* line 18, ../sass/main.scss */
-body {
-  background-color: #000;
-}
-
-/* line 23, ../sass/main.scss */
+/* line 20, ../sass/main.scss */
 #orange-img {
   background-color: #171717;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 28, ../sass/main.scss */
+/* line 25, ../sass/main.scss */
 #orange-img img {
   width: 100%;
 }
