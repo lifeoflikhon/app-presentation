@@ -1,5 +1,4 @@
 import { loader } from "./components/loader.js";
-import { chatbot } from "./components/chatbot.js";
 import { footer } from "./components/footer.js";
 import { download } from "./components/download.js";
 import { posts } from "./components/posts.js";
@@ -10,7 +9,7 @@ import { counter } from "./components/counter.js";
 import { dashboard } from "./components/dashboard.js";
 import { nav } from "./components/nav.js";
 
-// loader("loader");
+loader("loader");
 nav("navbar", "big-nav", "small-nav");
 dashboard("dashboard");
 counter("counter");
@@ -20,4 +19,3 @@ action();
 posts();
 download();
 footer();
-chatbot();

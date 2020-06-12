@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: center;
   background-color: #000;
+  @include underline(#ff786f, -25px);
   .container {
     .dash__img {
       .img-1 {
@@ -27,6 +28,17 @@
       .card {
         border: 0;
         background-color: transparent;
+        h1 {
+          font-size: 4em;
+          font-weight: 800;
+          line-height: 1.2;
+          letter-spacing: 1.3px;
+        }
+
+        p {
+          margin: 30px 0;
+          font-size: 1.3em;
+        }
       }
     }
   }

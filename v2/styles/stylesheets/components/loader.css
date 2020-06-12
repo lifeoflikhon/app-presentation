@@ -1,4 +1,15 @@
-/* line 8, ../../sass/components/loader.scss */
+/* line 7, ../../sass/components/loader.scss */
+#loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9998;
+  background-color: #fff;
+}
+
+/* line 18, ../../sass/components/loader.scss */
 .cube-folding {
   width: 50px;
   height: 50px;
@@ -9,7 +20,7 @@
   transform: rotate(45deg);
   font-size: 0;
 }
-/* line 14, ../../sass/components/loader.scss */
+/* line 24, ../../sass/components/loader.scss */
 .cube-folding span {
   position: relative;
   width: 25px;
@@ -20,7 +31,7 @@
   transform: scale(1.1);
   display: inline-block;
 }
-/* line 20, ../../sass/components/loader.scss */
+/* line 30, ../../sass/components/loader.scss */
 .cube-folding span::before {
   content: "";
   background-color: #ff786f;
@@ -38,42 +49,42 @@
   -webkit-animation: folding 2.5s infinite linear both;
   animation: folding 2.5s infinite linear both;
 }
-/* line 36, ../../sass/components/loader.scss */
+/* line 46, ../../sass/components/loader.scss */
 .cube-folding .leaf2 {
   -moz-transform: rotateZ(90deg) scale(1.1);
   -ms-transform: rotateZ(90deg) scale(1.1);
   -webkit-transform: rotateZ(90deg) scale(1.1);
   transform: rotateZ(90deg) scale(1.1);
 }
-/* line 38, ../../sass/components/loader.scss */
+/* line 48, ../../sass/components/loader.scss */
 .cube-folding .leaf2::before {
   -moz-animation-delay: 0.3s;
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
   background-color: #ff6056;
 }
-/* line 43, ../../sass/components/loader.scss */
+/* line 53, ../../sass/components/loader.scss */
 .cube-folding .leaf3 {
   -moz-transform: rotateZ(270deg) scale(1.1);
   -ms-transform: rotateZ(270deg) scale(1.1);
   -webkit-transform: rotateZ(270deg) scale(1.1);
   transform: rotateZ(270deg) scale(1.1);
 }
-/* line 45, ../../sass/components/loader.scss */
+/* line 55, ../../sass/components/loader.scss */
 .cube-folding .leaf3::before {
   -moz-animation-delay: 0.9s;
   -webkit-animation-delay: 0.9s;
   animation-delay: 0.9s;
   background-color: #ff6056;
 }
-/* line 50, ../../sass/components/loader.scss */
+/* line 60, ../../sass/components/loader.scss */
 .cube-folding .leaf4 {
   -moz-transform: rotateZ(180deg) scale(1.1);
   -ms-transform: rotateZ(180deg) scale(1.1);
   -webkit-transform: rotateZ(180deg) scale(1.1);
   transform: rotateZ(180deg) scale(1.1);
 }
-/* line 52, ../../sass/components/loader.scss */
+/* line 62, ../../sass/components/loader.scss */
 .cube-folding .leaf4::before {
   -moz-animation-delay: 0.6s;
   -webkit-animation-delay: 0.6s;
@@ -147,7 +158,7 @@
     opacity: 0;
   }
 }
-/* line 79, ../../sass/components/loader.scss */
+/* line 89, ../../sass/components/loader.scss */
 .cube-wrapper {
   position: fixed;
   left: 50%;
@@ -159,7 +170,7 @@
   text-align: center;
   z-index: 9999;
 }
-/* line 90, ../../sass/components/loader.scss */
+/* line 100, ../../sass/components/loader.scss */
 .cube-wrapper:after {
   content: "";
   position: absolute;
@@ -180,7 +191,7 @@
   -webkit-animation: shadow 0.5s ease infinite alternate;
   animation: shadow 0.5s ease infinite alternate;
 }
-/* line 105, ../../sass/components/loader.scss */
+/* line 115, ../../sass/components/loader.scss */
 .cube-wrapper .loading {
   font-size: 12px;
   letter-spacing: 0.1em;

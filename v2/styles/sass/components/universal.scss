@@ -9,4 +9,8 @@
 body {
   background-color: #000;
   font-family: "Muli", sans-serif;
+  position: relative;
+}
+html {
+  scroll-behavior: smooth;
 }

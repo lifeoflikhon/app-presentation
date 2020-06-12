@@ -10,4 +10,10 @@
 body {
   background-color: #000;
   font-family: "Muli", sans-serif;
+  position: relative;
+}
+
+/* line 14, ../../sass/components/universal.scss */
+html {
+  scroll-behavior: smooth;
 }

@@ -10,3 +10,13 @@
   border: 0;
   background-color: transparent;
 }
+/* line 11, ../../sass/components/counter.scss */
+#counter .container .card h1 {
+  font-weight: 800;
+  font-size: 3em;
+}
+/* line 16, ../../sass/components/counter.scss */
+#counter .container .card p {
+  font-weight: 700;
+  font-size: 1.5em;
+}

@@ -1,22 +1,24 @@
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   // dashboard
   #dashboard {
     background-size: 60%;
     .container {
       .dash__img {
+        order: 1;
         .img-1 {
-          width: 80%;
+          width: 40%;
+          left: 20%;
         }
         .img-2 {
-          width: 60%;
+          width: 35%;
         }
       }
       .dash__text {
+        order: 0;
         .card {
           h1 {
             font-size: 2em;
           }
-
           p {
             font-size: 1em;
           }

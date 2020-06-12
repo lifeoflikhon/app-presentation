@@ -11,7 +11,7 @@ function loaderEl() {
 }
 
 export function loader(id) {
-  document.getElementById(id).innerHTML = loader();
+  document.getElementById(id).innerHTML = loaderEl();
   const backgroundEl = document.getElementById("background");
 
   setInterval(() => {

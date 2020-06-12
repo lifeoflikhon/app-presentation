@@ -5,7 +5,7 @@ Error: Undefined mixin 'underline'.
 
 1: // navbar
 2: #navbar {
-3:   @include underline(#ffc050);
+3:   @include underline(#ffc050, -20px);
 4:   .navbar-dark {
 5:     background-color: transparent !important;
 6:     .navbar-toggler {
@@ -66,4 +66,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'underline'.\A         on line 3 of /Users/lifeoflikhon/Desktop/__workspace__/job/app-presentation/v2/styles/./sass/components/navbarStyled.scss, in `underline'\A         from line 3 of /Users/lifeoflikhon/Desktop/__workspace__/job/app-presentation/v2/styles/./sass/components/navbarStyled.scss\A \A 1: // navbar\A 2: #navbar {\A 3:   @include underline(#ffc050);\A 4:   .navbar-dark {\A 5:     background-color: transparent !important;\A 6:     .navbar-toggler {\A 7:       color: #fff;\A 8:       font-size: 1.5em;"; }
+  content: "Error: Undefined mixin 'underline'.\A         on line 3 of /Users/lifeoflikhon/Desktop/__workspace__/job/app-presentation/v2/styles/./sass/components/navbarStyled.scss, in `underline'\A         from line 3 of /Users/lifeoflikhon/Desktop/__workspace__/job/app-presentation/v2/styles/./sass/components/navbarStyled.scss\A \A 1: // navbar\A 2: #navbar {\A 3:   @include underline(#ffc050, -20px);\A 4:   .navbar-dark {\A 5:     background-color: transparent !important;\A 6:     .navbar-toggler {\A 7:       color: #fff;\A 8:       font-size: 1.5em;"; }
