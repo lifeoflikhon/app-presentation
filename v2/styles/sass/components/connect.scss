@@ -1,0 +1,30 @@
+// connect
+#connect {
+  background-color: #171717;
+  background-image: url("./../../img/post-back.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left center;
+  color: #f7f7f7;
+  padding: 100px 0;
+  .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    img {
+      width: 100%;
+    }
+    .card {
+      background-color: transparent;
+      border: 0;
+
+      .list-group {
+        margin: 40px 0;
+        .list-group-item {
+          padding: 5px 0;
+          background-color: transparent;
+          border: 0;
+        }
+      }
+    }
+  }
+}

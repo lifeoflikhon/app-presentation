@@ -1,0 +1,10 @@
+/* line 1, ../../sass/components/download.scss */
+#download {
+  background-color: #ff786f;
+  padding: 50px 0 100px 0;
+}
+/* line 4, ../../sass/components/download.scss */
+#download img {
+  width: fit-content;
+  max-width: 200px;
+}

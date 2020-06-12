@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  #dashboard {
+    background-size: 70%;
+    .dash__img {
+      order: 1;
+      img {
+        width: 50%;
+      }
+      .img-1 {
+        position: relative;
+        z-index: 10;
+      }
+      .img-2 {
+        position: absolute;
+        top: 20px;
+        left: 38% !important;
+        z-index: 9;
+      }
+    }
+    .dash__text {
+      order: 0;
+      img {
+        width: 60%;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}

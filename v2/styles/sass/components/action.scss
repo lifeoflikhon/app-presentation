@@ -1,0 +1,14 @@
+// action
+#action {
+  background-color: #171717;
+  color: #f7f7f7;
+  padding: 100px 0;
+  background-image: url("./../../img/action-back.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+  .card {
+    background-color: transparent;
+    border: 0;
+  }
+}

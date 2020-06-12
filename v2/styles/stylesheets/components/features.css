@@ -1,0 +1,17 @@
+/* line 2, ../../sass/components/features.scss */
+#features {
+  padding: 0 0 100px 0;
+  background: #171717 url("./../../img/action-back.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+/* line 8, ../../sass/components/features.scss */
+#features .top {
+  padding: 0 0 50px 0;
+}
+/* line 12, ../../sass/components/features.scss */
+#features .container .card {
+  background-color: transparent;
+  border: 0;
+}

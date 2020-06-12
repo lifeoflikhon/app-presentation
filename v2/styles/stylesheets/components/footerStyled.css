@@ -1,0 +1,25 @@
+/* line 2, ../../sass/components/footerStyled.scss */
+#footer .bg-dark {
+  background-color: #081f26 !important;
+}
+/* line 5, ../../sass/components/footerStyled.scss */
+#footer .container {
+  padding: 30px 0;
+  font-size: 0.8em;
+}
+/* line 11, ../../sass/components/footerStyled.scss */
+#footer .footer__social__link {
+  font-size: 1.5em;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+/* line 18, ../../sass/components/footerStyled.scss */
+#footer .footer__social__link:hover .bg-white {
+  background-color: #081f269f !important;
+}
+/* line 23, ../../sass/components/footerStyled.scss */
+#footer .footer .p-3 {
+  padding: 5px !important;
+}

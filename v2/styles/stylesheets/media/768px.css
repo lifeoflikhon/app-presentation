@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+  /* line 2, ../../sass/media/768px.scss */
+  #dashboard {
+    background-size: 70%;
+  }
+  /* line 4, ../../sass/media/768px.scss */
+  #dashboard .dash__img {
+    order: 1;
+  }
+  /* line 6, ../../sass/media/768px.scss */
+  #dashboard .dash__img img {
+    width: 50%;
+  }
+  /* line 9, ../../sass/media/768px.scss */
+  #dashboard .dash__img .img-1 {
+    position: relative;
+    z-index: 10;
+  }
+  /* line 13, ../../sass/media/768px.scss */
+  #dashboard .dash__img .img-2 {
+    position: absolute;
+    top: 20px;
+    left: 38% !important;
+    z-index: 9;
+  }
+  /* line 20, ../../sass/media/768px.scss */
+  #dashboard .dash__text {
+    order: 0;
+  }
+  /* line 22, ../../sass/media/768px.scss */
+  #dashboard .dash__text img {
+    width: 60%;
+    margin: 0;
+    padding: 0;
+  }
+}

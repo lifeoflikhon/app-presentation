@@ -1,0 +1,31 @@
+@import "./components/loader.scss";
+@import "./components/background.scss";
+@import "./components/underline.scss";
+@import "./components/navbarStyled.scss";
+@import "./components/dashboard.scss";
+@import "./components/counter.scss";
+@import "./components/features.scss";
+@import "./components/connect.scss";
+@import "./components/action.scss";
+@import "./components/posts.scss";
+@import "./components/download.scss";
+@import "./components/footerStyled.scss";
+@import "./components/chatbot.scss";
+
+// media
+@import "./media/768px.scss";
+
+body {
+  background-color: #000;
+}
+
+// -------------
+#orange-img {
+  background-color: #171717;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  img {
+    width: 100%;
+  }
+}

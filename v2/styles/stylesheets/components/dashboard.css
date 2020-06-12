@@ -1,0 +1,30 @@
+/* line 2, ../../sass/components/dashboard.scss */
+#dashboard {
+  background: url("./../../img/dash-back.png");
+  background-size: 50%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  z-index: 10;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+/* line 15, ../../sass/components/dashboard.scss */
+#dashboard .container .dash__img .img-1 {
+  position: relative;
+  z-index: 10;
+}
+/* line 19, ../../sass/components/dashboard.scss */
+#dashboard .container .dash__img .img-2 {
+  position: absolute;
+  top: 20px;
+  left: 46%;
+  z-index: 9;
+}
+/* line 27, ../../sass/components/dashboard.scss */
+#dashboard .container .dash__text .card {
+  border: 0;
+  background-color: transparent;
+}

@@ -1,0 +1,12 @@
+/* line 2, ../../sass/components/counter.scss */
+#counter {
+  background: #000 url("./../../img/dark-img.png");
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  padding: 100px 0 200px 0;
+}
+/* line 8, ../../sass/components/counter.scss */
+#counter .container .card {
+  border: 0;
+  background-color: transparent;
+}

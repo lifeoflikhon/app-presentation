@@ -1,0 +1,27 @@
+#footer {
+  .bg-dark {
+    background-color: #081f26 !important;
+  }
+  .container {
+    padding: 30px 0;
+    font-size: 0.8em;
+  }
+
+  .footer {
+    &__social__link {
+      font-size: 1.5em;
+      text-align: center;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      &:hover {
+        .bg-white {
+          background-color: #081f269f !important;
+        }
+      }
+    }
+    .p-3 {
+      padding: 5px !important;
+    }
+  }
+}

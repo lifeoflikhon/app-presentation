@@ -1,0 +1,13 @@
+// counter
+#counter {
+  background: #000 url("./../../img/dark-img.png");
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  padding: 100px 0 200px 0;
+  .container {
+    .card {
+      border: 0;
+      background-color: transparent;
+    }
+  }
+}
