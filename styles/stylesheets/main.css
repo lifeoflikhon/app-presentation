@@ -274,16 +274,16 @@ html {
 #navbar .underliner {
   box-shadow: inset 0 -20px 0 0 #ffc050;
 }
-/* line 5, ../sass/components/navbarStyled.scss */
+/* line 6, ../sass/components/navbarStyled.scss */
 #navbar .navbar-dark {
   background-color: transparent !important;
 }
-/* line 7, ../sass/components/navbarStyled.scss */
+/* line 8, ../sass/components/navbarStyled.scss */
 #navbar .navbar-dark .navbar-toggler {
   color: #fff;
   font-size: 1.5em;
 }
-/* line 13, ../sass/components/navbarStyled.scss */
+/* line 14, ../sass/components/navbarStyled.scss */
 #navbar .nav-link {
   color: #fff;
   letter-spacing: 1px;
@@ -292,22 +292,22 @@ html {
   font-weight: 700;
   white-space: nowrap;
 }
-/* line 22, ../sass/components/navbarStyled.scss */
+/* line 23, ../sass/components/navbarStyled.scss */
 #navbar .nav-item {
   opacity: 1;
   transition: opacity 0.5s ease;
   margin: 0 10px;
 }
-/* line 28, ../sass/components/navbarStyled.scss */
+/* line 29, ../sass/components/navbarStyled.scss */
 #navbar .dropdown-menu {
   border-radius: 10px;
   width: max-content !important;
 }
-/* line 33, ../sass/components/navbarStyled.scss */
+/* line 34, ../sass/components/navbarStyled.scss */
 #navbar .navbar-brand {
   font-weight: 800;
 }
-/* line 37, ../sass/components/navbarStyled.scss */
+/* line 38, ../sass/components/navbarStyled.scss */
 #navbar .btn {
   border: 0;
   color: #fff;
@@ -316,15 +316,15 @@ html {
   letter-spacing: 1px;
   padding: 10px 20px;
 }
-/* line 45, ../sass/components/navbarStyled.scss */
+/* line 46, ../sass/components/navbarStyled.scss */
 #navbar .btn-warning {
   background-color: #ff786f;
 }
-/* line 47, ../sass/components/navbarStyled.scss */
+/* line 48, ../sass/components/navbarStyled.scss */
 #navbar .btn-warning:hover {
   background-image: linear-gradient(to right, #ff938c 0%, #f3726a 51%, #d9665f 100%);
 }
-/* line 57, ../sass/components/navbarStyled.scss */
+/* line 58, ../sass/components/navbarStyled.scss */
 #navbar .btn.btn-light {
   background-color: transparent;
   font-size: 1.4em;
@@ -332,74 +332,74 @@ html {
   margin: 0 !important;
   line-height: 0;
 }
-/* line 65, ../sass/components/navbarStyled.scss */
+/* line 66, ../sass/components/navbarStyled.scss */
 #navbar .nav-item.sec-menus {
   margin: 0;
   align-self: center;
   outline: 0;
 }
-/* line 72, ../sass/components/navbarStyled.scss */
+/* line 73, ../sass/components/navbarStyled.scss */
 #navbar .home:hover .home-menu {
   display: inline !important;
 }
-/* line 78, ../sass/components/navbarStyled.scss */
+/* line 79, ../sass/components/navbarStyled.scss */
 #navbar .pages:hover .pages-menu {
   display: inline !important;
 }
-/* line 84, ../sass/components/navbarStyled.scss */
+/* line 85, ../sass/components/navbarStyled.scss */
 #navbar .portfolio:hover .portfolio-menu {
   display: inline !important;
 }
-/* line 87, ../sass/components/navbarStyled.scss */
+/* line 88, ../sass/components/navbarStyled.scss */
 #navbar .portfolio:hover .portfolio-menu .types:hover .types-menu {
   display: inline !important;
 }
-/* line 92, ../sass/components/navbarStyled.scss */
+/* line 93, ../sass/components/navbarStyled.scss */
 #navbar .portfolio:hover .portfolio-menu .layouts:hover .layouts-menu {
   display: inline !important;
 }
-/* line 97, ../sass/components/navbarStyled.scss */
+/* line 98, ../sass/components/navbarStyled.scss */
 #navbar .portfolio:hover .portfolio-menu .single:hover .single-menu {
   display: inline !important;
 }
-/* line 105, ../sass/components/navbarStyled.scss */
+/* line 106, ../sass/components/navbarStyled.scss */
 #navbar .shop:hover .shop-menu {
   display: inline !important;
 }
-/* line 108, ../sass/components/navbarStyled.scss */
+/* line 109, ../sass/components/navbarStyled.scss */
 #navbar .shop:hover .shop-menu .layouts:hover .layouts-menu {
   display: inline !important;
 }
-/* line 113, ../sass/components/navbarStyled.scss */
+/* line 114, ../sass/components/navbarStyled.scss */
 #navbar .shop:hover .shop-menu .grid:hover .grid-menu {
   display: inline !important;
 }
-/* line 118, ../sass/components/navbarStyled.scss */
+/* line 119, ../sass/components/navbarStyled.scss */
 #navbar .shop:hover .shop-menu .single:hover .single-menu {
   display: inline !important;
 }
-/* line 123, ../sass/components/navbarStyled.scss */
+/* line 124, ../sass/components/navbarStyled.scss */
 #navbar .shop:hover .shop-menu .pages:hover .pages-menu {
   display: inline !important;
 }
-/* line 131, ../sass/components/navbarStyled.scss */
+/* line 132, ../sass/components/navbarStyled.scss */
 #navbar .blog:hover .blog-menu {
   display: inline !important;
 }
-/* line 134, ../sass/components/navbarStyled.scss */
+/* line 135, ../sass/components/navbarStyled.scss */
 #navbar .blog:hover .blog-menu .standard:hover .standard-menu {
   display: inline !important;
 }
-/* line 139, ../sass/components/navbarStyled.scss */
+/* line 140, ../sass/components/navbarStyled.scss */
 #navbar .blog:hover .blog-menu .formats:hover .formats-menu {
   display: inline !important;
 }
-/* line 147, ../sass/components/navbarStyled.scss */
+/* line 148, ../sass/components/navbarStyled.scss */
 #navbar .elements:hover .elements-menu {
   display: inline !important;
 }
 
-/* line 154, ../sass/components/navbarStyled.scss */
+/* line 155, ../sass/components/navbarStyled.scss */
 #big-nav {
   display: none;
   position: absolute;
@@ -411,22 +411,26 @@ html {
   z-index: 1100;
   animation: fadeInRight 0.3s 1;
 }
-/* line 164, ../sass/components/navbarStyled.scss */
+/* line 2, ../sass/components/underline.scss */
+#big-nav .underliner {
+  box-shadow: inset 0 -20px 0 0 #ffc050;
+}
+/* line 166, ../sass/components/navbarStyled.scss */
 #big-nav #close {
   width: 100%;
   height: 100%;
   cursor: url("./../../img/delete-sign.png"), pointer;
 }
-/* line 169, ../sass/components/navbarStyled.scss */
+/* line 171, ../sass/components/navbarStyled.scss */
 #big-nav .card {
   height: 100vh;
 }
-/* line 171, ../sass/components/navbarStyled.scss */
+/* line 173, ../sass/components/navbarStyled.scss */
 #big-nav .card hr {
   color: #000;
 }
 
-/* line 178, ../sass/components/navbarStyled.scss */
+/* line 180, ../sass/components/navbarStyled.scss */
 #small-nav {
   display: none;
   position: absolute;
@@ -438,17 +442,17 @@ html {
   z-index: 1100;
   animation: fadeInRight 0.3s 1;
 }
-/* line 188, ../sass/components/navbarStyled.scss */
+/* line 190, ../sass/components/navbarStyled.scss */
 #small-nav #close-sm {
   width: 100%;
   height: 100%;
   cursor: url("./../../img/delete-sign.png"), pointer;
 }
-/* line 193, ../sass/components/navbarStyled.scss */
+/* line 195, ../sass/components/navbarStyled.scss */
 #small-nav .card {
   height: 100vh;
 }
-/* line 195, ../sass/components/navbarStyled.scss */
+/* line 197, ../sass/components/navbarStyled.scss */
 #small-nav .card #x {
   position: absolute;
   top: 30px;
@@ -457,13 +461,13 @@ html {
   cursor: pointer;
 }
 
-/* line 205, ../sass/components/navbarStyled.scss */
+/* line 207, ../sass/components/navbarStyled.scss */
 .navbar {
   opacity: 1;
   transition: opacity 0.5s ease;
 }
 
-/* line 210, ../sass/components/navbarStyled.scss */
+/* line 212, ../sass/components/navbarStyled.scss */
 .navbar-hide {
   pointer-events: none;
   opacity: 0;
@@ -604,7 +608,7 @@ html {
     transform: translateZ(0);
   }
 }
-/* line 4, ../sass/components/connect.scss */
+/* line 5, ../sass/components/connect.scss */
 #connect {
   background-color: #171717;
   background-image: url("./../../img/post-back.png");
@@ -618,31 +622,31 @@ html {
 #connect .underliner {
   box-shadow: inset 0 -20px 0 0 #ff686f;
 }
-/* line 13, ../sass/components/connect.scss */
+/* line 14, ../sass/components/connect.scss */
 #connect .container {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-/* line 16, ../sass/components/connect.scss */
+/* line 17, ../sass/components/connect.scss */
 #connect .container img {
   width: 100%;
-  animation: fadeInLeft 1s 1;
+  animation: fadeInLeft 7s 1;
 }
-/* line 20, ../sass/components/connect.scss */
+/* line 21, ../sass/components/connect.scss */
 #connect .container .card {
   background-color: transparent;
   border: 0;
 }
-/* line 24, ../sass/components/connect.scss */
+/* line 25, ../sass/components/connect.scss */
 #connect .container .card h1 {
   font-weight: 800;
   font-size: 3em;
 }
-/* line 29, ../sass/components/connect.scss */
+/* line 30, ../sass/components/connect.scss */
 #connect .container .card .list-group {
   margin: 40px 0;
 }
-/* line 31, ../sass/components/connect.scss */
+/* line 32, ../sass/components/connect.scss */
 #connect .container .card .list-group .list-group-item {
   padding: 5px 0;
   background-color: transparent;

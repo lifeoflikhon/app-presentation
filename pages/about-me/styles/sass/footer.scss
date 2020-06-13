@@ -1,0 +1,46 @@
+@import "./../../../../styles/sass/components/underline.scss";
+
+#footer {
+  background-color: #081f26;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  @include underline(#f8902f, -10px);
+
+  footer {
+    .top {
+      .card {
+        background-color: transparent;
+        border: 0;
+        h5 {
+          font-weight: 800;
+        }
+        .list-group {
+          .list-group-item {
+            background-color: transparent;
+            border: 0;
+            padding-left: 0;
+            .lni-chevron-right-circle {
+              display: none;
+              margin-right: 5px;
+            }
+            &:hover {
+              .lni-chevron-right-circle {
+                display: inline-block;
+              }
+            }
+          }
+        }
+      }
+    }
+    .bottom {
+      p {
+        font-size: 0.9em;
+      }
+
+      .icons {
+        font-size: 1.5em;
+        float: right;
+      }
+    }
+  }
+}

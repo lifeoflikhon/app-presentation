@@ -1,4 +1,5 @@
 @import "./../animation/animation-fade-in-right.scss";
+@import "./underline.scss";
 // navbar
 #navbar {
   @include underline(#ffc050, -20px);
@@ -161,6 +162,7 @@
   bottom: 0;
   z-index: 1100;
   animation: fadeInRight 0.3s 1;
+  @include underline(#ffc050, -20px);
   #close {
     width: 100%;
     height: 100%;

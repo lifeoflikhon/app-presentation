@@ -1,0 +1,43 @@
+/* line 3, ../sass/footer.scss */
+#footer {
+  background-color: #081f26;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+/* line 2, ../../../../styles/sass/components/underline.scss */
+#footer .underliner {
+  box-shadow: inset 0 -10px 0 0 #f8902f;
+}
+/* line 11, ../sass/footer.scss */
+#footer footer .top .card {
+  background-color: transparent;
+  border: 0;
+}
+/* line 14, ../sass/footer.scss */
+#footer footer .top .card h5 {
+  font-weight: 800;
+}
+/* line 18, ../sass/footer.scss */
+#footer footer .top .card .list-group .list-group-item {
+  background-color: transparent;
+  border: 0;
+  padding-left: 0;
+}
+/* line 22, ../sass/footer.scss */
+#footer footer .top .card .list-group .list-group-item .lni-chevron-right-circle {
+  display: none;
+  margin-right: 5px;
+}
+/* line 27, ../sass/footer.scss */
+#footer footer .top .card .list-group .list-group-item:hover .lni-chevron-right-circle {
+  display: inline-block;
+}
+/* line 36, ../sass/footer.scss */
+#footer footer .bottom p {
+  font-size: 0.9em;
+}
+/* line 40, ../sass/footer.scss */
+#footer footer .bottom .icons {
+  font-size: 1.5em;
+  float: right;
+}

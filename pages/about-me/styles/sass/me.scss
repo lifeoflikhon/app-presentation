@@ -1,8 +1,9 @@
 // connect
 
-@import "./../animation/animation-fade-in-left.scss";
-@import "./underline.scss";
-#connect {
+@import "./../../../../styles/sass/animation/animation-fade-in-left.scss";
+@import "./../../../../styles/sass/components/underline.scss";
+
+#me {
   background-color: #171717;
   background-image: url("./../../img/post-back.png");
   background-repeat: no-repeat;
@@ -16,11 +17,15 @@
     margin-bottom: 100px;
     img {
       width: 100%;
-      animation: fadeInLeft 7s 1;
+      animation: fadeInLeft 5.5s 1;
     }
     .card {
       background-color: transparent;
       border: 0;
+
+      .btn {
+        font-size: 1.5em;
+      }
 
       h1 {
         font-weight: 800;

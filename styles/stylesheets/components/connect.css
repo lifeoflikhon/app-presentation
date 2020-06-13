@@ -1,72 +1,54 @@
-/*
-Error: Undefined mixin 'underline'.
-        on line 12 of /Users/lifeoflikhon/Desktop/__workspace__/job/app-presentation/v2/styles/./sass/components/connect.scss, in `underline'
-        from line 12 of /Users/lifeoflikhon/Desktop/__workspace__/job/app-presentation/v2/styles/./sass/components/connect.scss
-
-7:   background-repeat: no-repeat;
-8:   background-size: auto;
-9:   background-position: left center;
-10:   color: #f7f7f7;
-11:   padding: 100px 0;
-12:   @include underline(#ff686f, -20px);
-13:   .container {
-14:     margin-top: 100px;
-15:     margin-bottom: 100px;
-16:     img {
-17:       width: 100%;
-
-Backtrace:
-/Users/lifeoflikhon/Desktop/__workspace__/job/app-presentation/v2/styles/./sass/components/connect.scss:12:in `underline'
-/Users/lifeoflikhon/Desktop/__workspace__/job/app-presentation/v2/styles/./sass/components/connect.scss:12
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:98:in `block in with_mixin'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:98:in `with_mixin'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:20:in `render'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/Library/Ruby/Gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined mixin 'underline'.\A         on line 12 of /Users/lifeoflikhon/Desktop/__workspace__/job/app-presentation/v2/styles/./sass/components/connect.scss, in `underline'\A         from line 12 of /Users/lifeoflikhon/Desktop/__workspace__/job/app-presentation/v2/styles/./sass/components/connect.scss\A \A 7:   background-repeat: no-repeat;\A 8:   background-size: auto;\A 9:   background-position: left center;\A 10:   color: #f7f7f7;\A 11:   padding: 100px 0;\A 12:   @include underline(#ff686f, -20px);\A 13:   .container {\A 14:     margin-top: 100px;\A 15:     margin-bottom: 100px;\A 16:     img {\A 17:       width: 100%;"; }
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+/* line 5, ../../sass/components/connect.scss */
+#connect {
+  background-color: #171717;
+  background-image: url("./../../img/post-back.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left center;
+  color: #f7f7f7;
+  padding: 100px 0;
+}
+/* line 2, ../../sass/components/underline.scss */
+#connect .underliner {
+  box-shadow: inset 0 -20px 0 0 #ff686f;
+}
+/* line 14, ../../sass/components/connect.scss */
+#connect .container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+/* line 17, ../../sass/components/connect.scss */
+#connect .container img {
+  width: 100%;
+  animation: fadeInLeft 7s 1;
+}
+/* line 21, ../../sass/components/connect.scss */
+#connect .container .card {
+  background-color: transparent;
+  border: 0;
+}
+/* line 25, ../../sass/components/connect.scss */
+#connect .container .card h1 {
+  font-weight: 800;
+  font-size: 3em;
+}
+/* line 30, ../../sass/components/connect.scss */
+#connect .container .card .list-group {
+  margin: 40px 0;
+}
+/* line 32, ../../sass/components/connect.scss */
+#connect .container .card .list-group .list-group-item {
+  padding: 5px 0;
+  background-color: transparent;
+  border: 0;
+}
