@@ -1,0 +1,50 @@
+@import "./../animation/animation-updown.scss";
+@import "./../animation/animation-phone-updown.scss";
+// dashboard
+#dashboard {
+  background: url("./../../img/dash-back.png");
+  background-size: 50%;
+  background-position: top right;
+  background-repeat: no-repeat;
+  z-index: 10;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  animation: back-size-updown 4s infinite;
+  @include underline(#ff786f, -25px);
+  .container {
+    .dash__img {
+      .img-1 {
+        position: relative;
+        z-index: 10;
+        animation: updownphone 4s infinite;
+      }
+      .img-2 {
+        position: absolute;
+        top: 20px;
+        left: 46%;
+        z-index: 9;
+        animation: updownphone 5s infinite;
+      }
+    }
+    .dash__text {
+      .card {
+        border: 0;
+        background-color: transparent;
+        h1 {
+          font-size: 4em;
+          font-weight: 800;
+          line-height: 1.2;
+          letter-spacing: 1.3px;
+        }
+
+        p {
+          margin: 30px 0;
+          font-size: 1.3em;
+        }
+      }
+    }
+  }
+}

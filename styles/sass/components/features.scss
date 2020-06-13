@@ -1,0 +1,22 @@
+// features
+#features {
+  padding: 0 0 100px 0;
+  background: #171717 url("./../../img/action-back.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+  @include underline(#ff786f, -20px);
+  .top {
+    padding: 0 0 50px 0;
+    h1 {
+      font-weight: 800;
+      @include underline(#ff786f, -20px);
+    }
+  }
+  .container {
+    .card {
+      background-color: transparent;
+      border: 0;
+    }
+  }
+}

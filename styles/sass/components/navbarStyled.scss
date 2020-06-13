@@ -1,0 +1,213 @@
+@import "./../animation/animation-fade-in-right.scss";
+// navbar
+#navbar {
+  @include underline(#ffc050, -20px);
+  .navbar-dark {
+    background-color: transparent !important;
+    .navbar-toggler {
+      color: #fff;
+      font-size: 1.5em;
+    }
+  }
+
+  .nav-link {
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .nav-item {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    margin: 0 10px;
+  }
+
+  .dropdown-menu {
+    border-radius: 10px;
+    width: max-content !important;
+  }
+
+  .navbar-brand {
+    font-weight: 800;
+  }
+
+  .btn {
+    border: 0;
+    color: #fff;
+    font-weight: 800;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+  }
+  .btn-warning {
+    background-color: #ff786f;
+    &:hover {
+      background-image: linear-gradient(
+        to right,
+        #ff938c 0%,
+        #f3726a 51%,
+        #d9665f 100%
+      );
+    }
+  }
+
+  .btn.btn-light {
+    background-color: transparent;
+    font-size: 1.4em;
+    padding: 0;
+    margin: 0 !important;
+    line-height: 0;
+  }
+
+  .nav-item.sec-menus {
+    margin: 0;
+    align-self: center;
+    outline: 0;
+  }
+
+  .home:hover {
+    .home-menu {
+      display: inline !important;
+    }
+  }
+
+  .pages:hover {
+    .pages-menu {
+      display: inline !important;
+    }
+  }
+
+  .portfolio:hover {
+    .portfolio-menu {
+      display: inline !important;
+      .types:hover {
+        .types-menu {
+          display: inline !important;
+        }
+      }
+      .layouts:hover {
+        .layouts-menu {
+          display: inline !important;
+        }
+      }
+      .single:hover {
+        .single-menu {
+          display: inline !important;
+        }
+      }
+    }
+  }
+
+  .shop:hover {
+    .shop-menu {
+      display: inline !important;
+      .layouts:hover {
+        .layouts-menu {
+          display: inline !important;
+        }
+      }
+      .grid:hover {
+        .grid-menu {
+          display: inline !important;
+        }
+      }
+      .single:hover {
+        .single-menu {
+          display: inline !important;
+        }
+      }
+      .pages:hover {
+        .pages-menu {
+          display: inline !important;
+        }
+      }
+    }
+  }
+
+  .blog:hover {
+    .blog-menu {
+      display: inline !important;
+      .standard:hover {
+        .standard-menu {
+          display: inline !important;
+        }
+      }
+      .formats:hover {
+        .formats-menu {
+          display: inline !important;
+        }
+      }
+    }
+  }
+
+  .elements:hover {
+    .elements-menu {
+      display: inline !important;
+    }
+  }
+}
+
+// big nav
+#big-nav {
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.712);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1100;
+  animation: fadeInRight 0.3s 1;
+  #close {
+    width: 100%;
+    height: 100%;
+    cursor: url("./../../img/delete-sign.png"), pointer;
+  }
+  .card {
+    height: 100vh;
+    hr {
+      color: #000;
+    }
+  }
+}
+
+// small nav
+#small-nav {
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.712);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1100;
+  animation: fadeInRight 0.3s 1;
+  #close-sm {
+    width: 100%;
+    height: 100%;
+    cursor: url("./../../img/delete-sign.png"), pointer;
+  }
+  .card {
+    height: 100vh;
+    #x {
+      position: absolute;
+      top: 30px;
+      right: 50px;
+      font-size: 2em;
+      cursor: pointer;
+    }
+  }
+}
+
+.navbar {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.navbar-hide {
+  pointer-events: none;
+  opacity: 0;
+}

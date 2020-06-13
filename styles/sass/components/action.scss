@@ -1,0 +1,25 @@
+// action
+#action {
+  background-color: #171717;
+  color: #f7f7f7;
+  padding: 100px 0;
+  background-image: url("./../../img/action-back.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+  @include underline(#ff786f, -20px);
+  .card {
+    background-color: transparent;
+    border: 0;
+    .card-body {
+      h1 {
+        font-size: 3em;
+        font-weight: 800;
+      }
+
+      p {
+        margin: 40px 0;
+      }
+    }
+  }
+}

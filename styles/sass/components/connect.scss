@@ -1,0 +1,39 @@
+// connect
+
+@import "./../animation/animation-fade-in-left.scss";
+#connect {
+  background-color: #171717;
+  background-image: url("./../../img/post-back.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left center;
+  color: #f7f7f7;
+  padding: 100px 0;
+  @include underline(#ff686f, -20px);
+  .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    img {
+      width: 100%;
+      animation: fadeInLeft 1s 1;
+    }
+    .card {
+      background-color: transparent;
+      border: 0;
+
+      h1 {
+        font-weight: 800;
+        font-size: 3em;
+      }
+
+      .list-group {
+        margin: 40px 0;
+        .list-group-item {
+          padding: 5px 0;
+          background-color: transparent;
+          border: 0;
+        }
+      }
+    }
+  }
+}
